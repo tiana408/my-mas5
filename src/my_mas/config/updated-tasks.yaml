@@ -1,0 +1,38 @@
+---
+research_task:
+  description: >
+    Conduct a comprehensive research about {Product_Category} from {Target_Brands}, focusing on specific user-defined needs ({Key_Features}). 
+            Collect detailed information about product specifications, compare key features such as area data quality, support data, price, fidelity, and other relevant attributes. 
+            Ensure all data is current for the year 2024 while verifying information from multiple credible sources including manufacturer websites, tech review sites, and consumer electronics databases.
+  expected_output: >
+    A comprehensive list with detailed bullet points covering:
+            - Comparative analysis of {Target_Brands} in {Product_Category}
+            - Specific details on {Key_Features}
+            - Price ranges and value propositions
+            - Technical specifications and performance metrics
+            - User reviews and expert ratings
+            - Technological innovations
+            - Potential pros and cons
+            - Availability and market positioning
+            - Recommended models based on user needs
+  agent: Analyst
+
+summary_task:
+  description: >
+    Transform the collected research data on {Product_Category} from {Target_Brands} into clear, visually compelling comparisons. 
+            Synthesize complex technical attributes and information into digestible insights that highlight key differences and similarities across products, with a specific focus on {Key_Features}.
+  expected_output: >
+    A comprehensive visual analysis package including:
+            - Comparative feature matrix
+            - Graphical performance benchmarks
+            - Side-by-side product specification tables
+  agent: Researcher
+
+report_generation_task:
+  description: >
+    Create detailed reports based on the analysis of data from {Product_Category} focusing on {Target_Brands}. 
+            Summarize findings into a final report with actionable insights and recommendations tailored to meet specific consumer expectations.
+  expected_output: >
+    A user-friendly final report that includes comprehensive comparisons, visual data presentations, and actionable insights, 
+            designed to guide consumers in making informed decisions based on the analysis of {Target_Brands} in the {Product_Category}.
+  agent: Reporting Analyst

@@ -50,11 +50,9 @@ class MyMas():
 
     @crew
     def crew(self) -> Crew:
-        """Creates the MyMas crew"""
         return Crew(
             agents=[self.researcher, self.summary_agent, self.reporting_agent],
             tasks=[self.research_task, self.summary_task, self.report_generation_task],
             process=Process.sequential,
             verbose=True
         )
-
